@@ -10,12 +10,12 @@ Tested manually with two VKB Gladiator EVO Premium sticks (right: `231D:0200`, l
 
 | Method | Deutsch | English | Status |
 |---|---|---|---|
-| **Manual registry fix** | [DE_VKB-Proton-Elite.md](DE_VKB-Proton-Elite.md) | [EN_VKB-Proton-Elite.md](EN_VKB-Proton-Elite.md) | **Tested and working** |
-| **Automatic fix (`fix_vkb.py`)** | [DE_Registry_fix.md](DE_Registry_fix.md) | [EN_Registry_fix.md](EN_Registry_fix.md) | **Experimental, not yet tested on a live Proton installation** |
+| **Manual registry fix** | [DE_VKB-Proton-Elite.md](docs/DE_VKB-Proton-Elite.md)) | [EN_VKB-Proton-Elite.md](docs/EN_VKB-Proton-Elite.md)) | **Tested and working** |
+| **Automatic fix (`fix_vkb.py`)** | [DE_Registry_fix.md](docs/DE_Registry_fix.md) | [EN_Registry_fix.md](docs/EN_Registry_fix.md) | **Experimental, not yet tested on a live Proton installation** |
 
 The automatic script is intended to find both sticks, back up the Wine registry entries, and apply the same changes as the manual fix. **Use the manual instructions if you want the tested method.**
 
-[`VKB.public.reg.template`](VKB.public.reg.template) is only an example. It contains placeholder device-instance IDs and **cannot be imported unchanged**. Keep personal registry backups out of the repository.
+[`VKB.public.reg.template`](templates/VKB.public.reg.template) is only an example. It contains placeholder device-instance IDs and **cannot be imported unchanged**. Keep personal registry backups out of the repository.
 
 ## Button names
 

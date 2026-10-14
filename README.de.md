@@ -10,12 +10,12 @@ Manuell mit zwei VKB Gladiator EVO Premium getestet (rechts: `231D:0200`, links:
 
 | Methode | Deutsch | English | Status |
 |---|---|---|---|
-| **Manueller Registry-Fix** | [DE_VKB-Proton-Elite.md](DE_VKB-Proton-Elite.md) | [EN_VKB-Proton-Elite.md](EN_VKB-Proton-Elite.md) | **Getestet und funktionsfähig** |
-| **Automatischer Fix (`fix_vkb.py`)** | [DE_Registry_fix.md](DE_Registry_fix.md) | [EN_Registry_fix.md](EN_Registry_fix.md) | **Experimentell, noch nicht in einer laufenden Proton-Installation getestet** |
+| **Manueller Registry-Fix** | [DE_VKB-Proton-Elite.md](docs/DE_VKB-Proton-Elite.md) | [EN_VKB-Proton-Elite.md](docs/EN_VKB-Proton-Elite.md) | **Getestet und funktionsfähig** |
+| **Automatischer Fix (`fix_vkb.py`)** | [DE_Registry_fix.md](docs/DE_Registry_fix.md) | [EN_Registry_fix.md](docs/EN_Registry_fix.md) | **Experimentell, noch nicht in einer laufenden Proton-Installation getestet** |
 
 Das automatische Skript soll beide Sticks finden, die Wine-Registry-Einträge sichern und dieselben Änderungen wie die manuelle Anleitung durchführen. **Wer die getestete Methode nutzen möchte, sollte die manuelle Anleitung verwenden.**
 
-[`VKB.public.reg.template`](VKB.public.reg.template) ist nur eine Vorlage. Die Geräteinstanz-IDs sind Platzhalter; die Datei kann **nicht unverändert importiert werden**. Persönliche Registry-Backups gehören nicht ins Repository.
+[`VKB.public.reg.template`](templates/VKB.public.reg.template) ist nur eine Vorlage. Die Geräteinstanz-IDs sind Platzhalter; die Datei kann **nicht unverändert importiert werden**. Persönliche Registry-Backups gehören nicht ins Repository.
 
 ## Buttonnamen
 
